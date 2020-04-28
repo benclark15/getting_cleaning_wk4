@@ -1,0 +1,26 @@
+---
+title: "codebook"
+author: "B. Clark"
+date: "27-04-2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Codebook for Week 4 Getting and Cleaning assignment
+
+This document describes the data used in the Week 4 assignment.
+
+* subjectID - Sequential number for each of the 30 subjects from the training and test data sets
+
+* activities -  
+  * 1: WALKING  
+  * 2: WALKING_UPSTAIRS  
+  * 3: WALKING_DOWNSTAIRS  
+  * 4: SITTING  
+  * 5: STANDING  
+  * 6: LAYING  
+
+While there are 561 "measurable" variables in the training and test datasets, only 66 are Mean or Std variables.  These are selected and displayed in the output file "tidyData.txt".
